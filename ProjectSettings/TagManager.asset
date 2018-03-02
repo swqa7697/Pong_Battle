@@ -4,10 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Top_bottom_edge
-  - Left_right_edge
   - ScoreArea0
   - ScoreArea1
+  - Top
+  - Bottom
+  - Left
+  - Right
   layers:
   - Default
   - TransparentFX

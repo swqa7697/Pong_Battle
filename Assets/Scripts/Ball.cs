@@ -36,12 +36,14 @@ public class Ball: MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Top_bottom_edge")
-            myDirection.y = -myDirection.y;
-        if (other.gameObject.tag == "Left_right_edge")
-            myDirection.x = -myDirection.x;
-        if (other.gameObject.tag == "Player")
-            myDirection.x = -myDirection.x;
+        if (other.gameObject.tag == "Top")
+            myDirection.y = -Mathf.Abs(myDirection.y);
+        if (other.gameObject.tag == "Bottom")
+            myDirection.y = Mathf.Abs(myDirection.y);
+        if (other.gameObject.tag == "Left")
+            myDirection.x = Mathf.Abs(myDirection.x);
+        if (other.gameObject.tag == "Right")
+            myDirection.x = -Mathf.Abs(myDirection.x);
         if (other.gameObject.tag == "ScoreArea0")
         {
             countdown = 30;
