@@ -9,4 +9,14 @@ public class Buttons: MonoBehaviour
     {
         SceneManager.LoadScene("Main", LoadSceneMode.Single);
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("StartMenu", LoadSceneMode.Single);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SetScreen : MonoBehaviour
+public class SetScreen: MonoBehaviour
 {
     private void Awake()
     {
