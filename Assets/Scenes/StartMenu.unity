@@ -225,11 +225,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BGM:
-  - {fileID: 8300000, guid: 5e7a027d469a2574aad0d7cb862fa87d, type: 3}
-  - {fileID: 8300000, guid: 065f65f1eb0dc164bb6dc272871ba399, type: 3}
-  - {fileID: 8300000, guid: c19bb071c967e22458fc29b334e09827, type: 3}
-  - {fileID: 8300000, guid: 63eb748e8b3a113449c5a09768f1ca5a, type: 3}
-  - {fileID: 8300000, guid: d4d06ed7326d2ac448ce8d9d9c38208b, type: 3}
+  - {fileID: 8300000, guid: f67238da2b625fb41a33be76ab215baa, type: 3}
+  - {fileID: 8300000, guid: cd4598ce2dbda114b9075543e3748a2b, type: 3}
+  - {fileID: 8300000, guid: fedd5e4d59fd02e48993d1743f9947d6, type: 3}
+  - {fileID: 8300000, guid: d58ef92156d6d9f4f81609994fb25a39, type: 3}
+  - {fileID: 8300000, guid: 488ee07dbc530b349aff9fa61d22bc30, type: 3}
 --- !u!82 &48639270
 AudioSource:
   m_ObjectHideFlags: 0

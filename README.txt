@@ -21,13 +21,13 @@ abilities can be the most efficient, the game can be more interesting and compet
 Charge: Accelerate the ball if the player charges the paddle when the ball just hit on the paddle. 
   --Shortcuts: 
     --P1: D
-	--P2: ←
+    --P2: ←
   --CD: 0s
 
 Boost: Increase the paddle's speed. 
   --Shortcut: 
     --P1: 4
-	--P2: , (Comma)
+    --P2: , (Comma)
   --Duration: 5s
   --CD: 15s
 
@@ -35,12 +35,12 @@ Sticky: Stick the ball on the paddle, and release the ball on the next Charge. (
 accelerated greater)
   --Shortcut: 
     --P1: 5
-	--P2: . (Period)
+    --P2: . (Period)
   --CD: 30s
 
 Expand: Make the paddle longer
   --Shortcut: 
     --P1: 6
-	--P2: / (Slash)
+    --P2: / (Slash)
   --Duration: 8s
   --CD: 40s
